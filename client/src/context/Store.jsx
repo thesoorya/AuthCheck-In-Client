@@ -5,7 +5,7 @@ import { toast } from 'react-hot-toast';
 export const StoreContext = createContext();
 
 const Store = ({ children }) => {
-    const url = 'http://localhost:5000';
+    const url = 'https://authcheck-in-client.onrender.com';
     const [user, setUser] = useState(null);
 
     const signUp = async (signupData) => {
